@@ -11,6 +11,6 @@
 
 ## Frontend architecture
 - Use TanStack file routes for the five content pages and a shared SiteShell for navigation, footer and quote dialog so direct page URLs and shared interactions remain consistent.
-- Keep reference content and CDN asset pointers in the shared site data module; imported original photos use Lovable asset storage to avoid third-party hotlinks.
+- Keep reference content in the shared site data module; photos, logo and video live as real files in public/media so the site works on any host (Vercel etc.), each file under 10MB.
 - Quote and contact forms are frontend-only demonstrations and must never claim delivery to a business until real submission handling is added.
 - A homepage background video must use an uploaded original MP4 with muted, autoplay, loop and playsInline; do not substitute a Facebook iframe because clean looping cannot be guaranteed.
