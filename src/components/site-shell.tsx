@@ -4,12 +4,13 @@ import * as Dialog from "@radix-ui/react-dialog";
 import { ArrowUp, CheckCircle2, Facebook, Instagram, Mail, MapPin, Menu, Phone, Send, Star, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { navigation, site } from "@/lib/site";
+import logo from "@/assets/lux-logo.png.asset.json";
 
 const QuoteContext = createContext<(service?: string) => void>(() => {});
 export const useQuote = () => useContext(QuoteContext);
 
 export function Brand() {
-  return <Link to="/" className="brand" aria-label="Luxurious Professional Painting — home"><img src="/favicon.svg" alt="" className="brand-logo" width={44} height={44} /><span className="brand-name"><span>Luxurious Professional</span><small>Painting</small></span></Link>;
+  return <Link to="/" className="brand" aria-label="Luxurious Professional Painting — home"><img src={logo.url} alt="" className="brand-logo" width={52} height={52} /><span className="brand-name"><span>Luxurious Professional</span><small>Painting</small></span></Link>;
 }
 
 export function PhoneLink({ outline = false }: { outline?: boolean }) {
@@ -42,6 +43,13 @@ export function SiteShell({ children }: { children: ReactNode }) {
   const [service, setService] = useState("");
   const openQuote = (preset = "") => { setService(preset); setQuoteOpen(true); setMenuOpen(false); };
   useEffect(() => { setMenuOpen(false); }, [location.pathname]);
+  useEffect(() => {
+    const els = document.querySelectorAll("main section, main article, .service-row, .project-tile, .contact-card, .store-service");
+    els.forEach((el, i) => { el.classList.add("reveal"); (el as HTMLElement).style.transitionDelay = `${(i % 4) * 70}ms`; });
+    const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: 0.12 });
+    els.forEach(el => io.observe(el));
+    return () => io.disconnect();
+  }, [location.pathname]);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
     onScroll(); window.addEventListener("scroll", onScroll, { passive: true });
