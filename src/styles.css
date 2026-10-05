@@ -15,3 +15,18 @@
 @media(max-width:380px){.brand-name{font-size:16px}.brand-mark{width:34px;height:34px}.hero h1,.page-cover h1{font-size:42px}.lux-button{font-size:12px;padding-inline:20px}.trust-grid{gap:20px 10px}.trust-item{gap:8px}.trust-icon{width:32px;height:32px}.store-service{gap:12px;padding:18px}.store-service img{width:72px;height:90px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{animation:none!important;transition:none!important}}
 .hero-video{animation:none}.brand-logo{width:44px;height:44px;border-radius:12px;box-shadow:0 0 24px -6px oklch(.739 .128 80 / .5)}.hero h1{text-shadow:0 4px 30px oklch(0 0 0 / .5)}
+
+/* Logo + smooth transitions */
+.brand-logo{width:52px;height:52px;border-radius:50%;object-fit:cover;box-shadow:0 0 28px -8px oklch(.739 .128 80 / .6);transition:transform .6s cubic-bezier(.2,.8,.2,1)}
+.brand:hover .brand-logo{transform:rotate(-8deg) scale(1.06)}
+html{scroll-behavior:smooth}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .9s cubic-bezier(.2,.8,.2,1),transform .9s cubic-bezier(.2,.8,.2,1)}
+.reveal.in{opacity:1;transform:none}
+.hero.reveal{opacity:1;transform:none}
+.hero-copy>*{animation:hero-rise 1s cubic-bezier(.2,.8,.2,1) both}
+.hero-copy>*:nth-child(2){animation-delay:.15s}.hero-copy>*:nth-child(3){animation-delay:.3s}.hero-copy>*:nth-child(4){animation-delay:.45s}
+@keyframes hero-rise{from{opacity:0;transform:translateY(30px);filter:blur(6px)}to{opacity:1;transform:none;filter:none}}
+img{transition:transform .7s cubic-bezier(.2,.8,.2,1),filter .7s}
+.split-image:hover img,.service-photo:hover,.store-service:hover img,.project-tile:hover img{transform:scale(1.04)}
+button,a{transition:all .3s ease}
+@media (prefers-reduced-motion:reduce){.reveal,.hero-copy>*{opacity:1!important;transform:none!important;animation:none!important;transition:none!important}}
