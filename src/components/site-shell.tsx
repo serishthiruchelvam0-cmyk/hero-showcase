@@ -9,7 +9,7 @@ const QuoteContext = createContext<(service?: string) => void>(() => {});
 export const useQuote = () => useContext(QuoteContext);
 
 export function Brand() {
-  return <Link to="/" className="brand" aria-label="Luxurious Professional Painting — home"><span className="brand-mark">L</span><span className="brand-name"><span>Luxurious Professional</span><small>Painting</small></span></Link>;
+  return <Link to="/" className="brand" aria-label="Luxurious Professional Painting — home"><img src="/favicon.svg" alt="" className="brand-logo" width={44} height={44} /><span className="brand-name"><span>Luxurious Professional</span><small>Painting</small></span></Link>;
 }
 
 export function PhoneLink({ outline = false }: { outline?: boolean }) {
