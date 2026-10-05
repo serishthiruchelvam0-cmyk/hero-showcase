@@ -8,3 +8,9 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+## Frontend architecture
+- Use TanStack file routes for the five content pages and a shared SiteShell for navigation, footer and quote dialog so direct page URLs and shared interactions remain consistent.
+- Keep reference content and CDN asset pointers in the shared site data module; imported original photos use Lovable asset storage to avoid third-party hotlinks.
+- Quote and contact forms are frontend-only demonstrations and must never claim delivery to a business until real submission handling is added.
+- A homepage background video must use an uploaded original MP4 with muted, autoplay, loop and playsInline; do not substitute a Facebook iframe because clean looping cannot be guaranteed.
