@@ -30,23 +30,23 @@
     "partnerLogos": [
       {
         "name": "Benjamin Moore",
-        "image": "/__l5e/assets-v1/2238797c-ffaa-4109-9768-ee9b93559e3b/original-photo-30.jpg"
+        "image": "/media/2238797c-original-photo-30.jpg"
       },
       {
         "name": "PPG Paints",
-        "image": "/__l5e/assets-v1/285a5fdc-5cee-494d-a543-43f06cf2b546/original-photo-31.jpg"
+        "image": "/media/285a5fdc-original-photo-31.jpg"
       },
       {
         "name": "Sherwin-Williams",
-        "image": "/__l5e/assets-v1/5025cfd4-430f-4997-ba79-19149f70e267/original-photo-32.jpg"
+        "image": "/media/5025cfd4-original-photo-32.jpg"
       }
     ]
   },
   "showcase": [
-    "/__l5e/assets-v1/44924d32-e549-4539-b1db-82756c5d484b/original-photo-28.jpg",
-    "/__l5e/assets-v1/b2a67f3d-379c-4620-bf2e-84269ecfafd4/original-photo-33.jpg",
-    "/__l5e/assets-v1/c3f1fb6c-178f-4396-a35b-cda91952424a/original-photo-29.jpg",
-    "/__l5e/assets-v1/44924d32-e549-4539-b1db-82756c5d484b/original-photo-28.jpg"
+    "/media/44924d32-original-photo-28.jpg",
+    "/media/b2a67f3d-original-photo-33.jpg",
+    "/media/c3f1fb6c-original-photo-29.jpg",
+    "/media/44924d32-original-photo-28.jpg"
   ],
   "services": [
     {
@@ -55,7 +55,7 @@
       "category": "In-Home",
       "summary": "Enhance the beauty of your home\u2019s interior and exterior with professional painting that delivers a flawless, lasting finish.",
       "description": "Whether you are refreshing a single room or updating your property\u2019s facade, our skilled painters ensure a flawless finish that revitalizes your space. We work with premium materials and proven techniques for enduring beauty and durability.",
-      "image": "/__l5e/assets-v1/99a51dfd-8913-45b1-a33f-9cb798069183/original-photo-3.jpg"
+      "image": "/media/99a51dfd-original-photo-3.jpg"
     },
     {
       "id": "color-consultancy",
@@ -63,7 +63,7 @@
       "category": "In-Home",
       "summary": "Make confident color choices with the guidance of our expert consultants and harmonious, personalized palettes.",
       "description": "We assist you in selecting the perfect color palettes that harmonize with your decor, lighting, and personal preferences, ensuring a cohesive and visually appealing result tailored to your space.",
-      "image": "/__l5e/assets-v1/c72aeffe-fd22-497e-aad7-0866d5b105cf/original-photo-18.jpg"
+      "image": "/media/c72aeffe-original-photo-18.jpg"
     },
     {
       "id": "coats-restoration",
@@ -71,7 +71,7 @@
       "category": "In-Home",
       "summary": "Revitalize worn surfaces and restore the timeless charm of historical features with meticulous craftsmanship.",
       "description": "Whether it is refreshing worn-out paint or restoring the beauty of historical features, our team has the expertise to rejuvenate your property and preserve its timeless charm.",
-      "image": "/__l5e/assets-v1/14d767a4-c6e9-4879-b19c-d17b78d36eba/original-photo-17.jpg"
+      "image": "/media/14d767a4-original-photo-17.jpg"
     },
     {
       "id": "paint-preparation",
@@ -79,7 +79,7 @@
       "category": "In-Home",
       "summary": "A meticulous preparation process that builds a strong foundation for a long-lasting, stunning finish.",
       "description": "Our meticulous approach ensures that every project begins with a strong foundation, allowing the subsequent painting process to deliver long-lasting and stunning results.",
-      "image": "/__l5e/assets-v1/9f192ae6-6e56-4b46-bc9f-15f5d4851d71/original-photo-22.jpg"
+      "image": "/media/9f192ae6-original-photo-22.jpg"
     },
     {
       "id": "custom-palette-creation",
@@ -87,7 +87,7 @@
       "category": "In-Store",
       "summary": "Custom color schemes developed with you to bring your design vision to life with a personalized result.",
       "description": "We specialize in creating custom palettes to bring your design vision to life. Our experts will work with you to develop the perfect color scheme for your project, ensuring a unique and personalized result that reflects your style and preferences.",
-      "image": "/__l5e/assets-v1/f4fbffc0-fc6d-41b9-9074-0eaa627905a2/original-photo-21.jpg"
+      "image": "/media/f4fbffc0-original-photo-21.jpg"
     },
     {
       "id": "3d-rendering-previews",
@@ -95,7 +95,7 @@
       "category": "In-Store",
       "summary": "Experience your space before painting begins with advanced visualization that brings your ideas to reality.",
       "description": "Experience your space before the actual painting begins with our 3D rendering previews. Our advanced technology allows you to visualize the outcome, making it easier to make informed decisions and bring your ideas to reality.",
-      "image": "/__l5e/assets-v1/a9911b4c-8fe8-4f24-a748-f6c5ff495cbb/original-photo-9.jpg"
+      "image": "/media/a9911b4c-original-photo-9.jpg"
     },
     {
       "id": "professional-paint-mixing",
@@ -103,7 +103,7 @@
       "category": "In-Store",
       "summary": "Achieve the exact color you desire, from subtle shades to bold hues, with professional-grade mixing.",
       "description": "Achieve the exact color you desire with our professional paint mixing services. From subtle shades to bold hues, we have the expertise and tools to create the perfect paint for your home or commercial project.",
-      "image": "/__l5e/assets-v1/dcabd7df-4fcc-4114-9527-f7df72efa52d/original-photo-15.jpg"
+      "image": "/media/dcabd7df-original-photo-15.jpg"
     },
     {
       "id": "wallpaper-selection",
@@ -111,7 +111,7 @@
       "category": "In-Store",
       "summary": "Explore a wide range of wallpaper options with knowledgeable guidance to enhance your space.",
       "description": "Explore a wide range of wallpaper options with the assistance of our knowledgeable team. Whether you are seeking a modern, classic, or unique wallpaper design, we will help you find the ideal choice to enhance your space.",
-      "image": "/__l5e/assets-v1/337d563a-7a4f-4665-ba13-8ac61324f7fc/original-photo-11.jpg"
+      "image": "/media/337d563a-original-photo-11.jpg"
     }
   ],
   "projects": [
@@ -120,10 +120,10 @@
       "title": "Commercial",
       "description": "Sophisticated finishes for commercial spaces that elevate the professional presence of your business.",
       "images": [
-        "/__l5e/assets-v1/57870ab3-044f-4a25-848c-8a28e23c0324/original-photo-2.jpg",
-        "/__l5e/assets-v1/aa379a8f-5e46-44aa-935d-33e08a16b724/original-photo-12.jpg",
-        "/__l5e/assets-v1/25c51e98-3d35-4039-b654-f51ff46e7dc3/original-photo-1.jpg",
-        "/__l5e/assets-v1/b44ff082-eb35-48fc-8e4f-e405b04ba7c4/original-photo-14.jpg"
+        "/media/57870ab3-original-photo-2.jpg",
+        "/media/aa379a8f-original-photo-12.jpg",
+        "/media/25c51e98-original-photo-1.jpg",
+        "/media/b44ff082-original-photo-14.jpg"
       ]
     },
     {
@@ -131,10 +131,10 @@
       "title": "Custom",
       "description": "Bespoke, high-end custom painting projects where artistry and precision meet your unique vision.",
       "images": [
-        "/__l5e/assets-v1/9f719829-91a9-4611-9555-62eaa1975beb/original-photo-6.jpg",
-        "/__l5e/assets-v1/a6cdf4f1-75e6-439f-9008-4f9b78c16008/original-photo-10.jpg",
-        "/__l5e/assets-v1/c7886f1a-bb9a-4def-ad8c-f0b623e0c85c/original-photo-13.jpg",
-        "/__l5e/assets-v1/18ac6513-142e-41ff-bf0f-a72d1751bacf/original-photo-7.jpg"
+        "/media/9f719829-original-photo-6.jpg",
+        "/media/a6cdf4f1-original-photo-10.jpg",
+        "/media/c7886f1a-original-photo-13.jpg",
+        "/media/18ac6513-original-photo-7.jpg"
       ]
     },
     {
@@ -142,12 +142,12 @@
       "title": "Interior & Exterior",
       "description": "Transformative interior and exterior painting that revitalizes residential properties inside and out.",
       "images": [
-        "/__l5e/assets-v1/4bde5b52-4265-47b0-a993-b714c6b52dc5/original-photo-5.jpg",
-        "/__l5e/assets-v1/b02449a9-96c0-43cd-8e98-f01a5c7e2146/original-photo-24.jpg",
-        "/__l5e/assets-v1/3fbccfe0-70a8-4a57-85f9-c69a9b35d8b3/original-photo-19.jpg",
-        "/__l5e/assets-v1/088d9e98-1790-429f-baf5-c1d4becff4e0/original-photo-8.jpg",
-        "/__l5e/assets-v1/a21f363f-a2ea-4ce7-928c-7bd6383e9db4/original-photo-27.jpg",
-        "/__l5e/assets-v1/43efd1be-0586-4c76-a833-b9200e335b73/original-photo-26.jpg"
+        "/media/4bde5b52-original-photo-5.jpg",
+        "/media/b02449a9-original-photo-24.jpg",
+        "/media/3fbccfe0-original-photo-19.jpg",
+        "/media/088d9e98-original-photo-8.jpg",
+        "/media/a21f363f-original-photo-27.jpg",
+        "/media/43efd1be-original-photo-26.jpg"
       ]
     }
   ],
@@ -156,10 +156,10 @@
     "From intricate interior details to grand exterior finishes, we bring a touch of luxury and sophistication to every stroke. Our commitment to quality is matched by our use of premium materials and cutting-edge techniques, ensuring enduring beauty and durability.",
     "At Luxurious Professional Painting, we don\u2019t just paint walls; we elevate environments, turning ordinary spaces into extraordinary works of art. Experience the pinnacle of painting excellence with us, where every project is a testament to our dedication to artistry and customer satisfaction."
   ],
-  "hero": "/__l5e/assets-v1/7ea90a02-0f73-4c90-b338-2f255b8c9e20/original-photo-4.jpg",
-  "aboutImage": "/__l5e/assets-v1/1c89413b-1217-4539-9fc0-0ceca1ce4d7a/original-photo-25.jpg",
-  "quoteImage": "/__l5e/assets-v1/3e5ade1d-f29e-44d1-a163-d1c66f1ec186/original-photo-20.jpg",
-  "storyImage": "/__l5e/assets-v1/2b777d1e-35e4-47e8-87a0-bd71a9b25413/original-photo-0.jpg",
-  "servicesHero": "/__l5e/assets-v1/f4ec04f7-5dac-40a5-b5eb-f17e8a09ac00/original-photo-16.jpg",
-  "contactHero": "/__l5e/assets-v1/48ce83f2-6099-4d1a-a818-d5ed37b77fc5/original-photo-23.jpg"
+  "hero": "/media/7ea90a02-original-photo-4.jpg",
+  "aboutImage": "/media/1c89413b-original-photo-25.jpg",
+  "quoteImage": "/media/3e5ade1d-original-photo-20.jpg",
+  "storyImage": "/media/2b777d1e-original-photo-0.jpg",
+  "servicesHero": "/media/f4ec04f7-original-photo-16.jpg",
+  "contactHero": "/media/48ce83f2-original-photo-23.jpg"
 }
